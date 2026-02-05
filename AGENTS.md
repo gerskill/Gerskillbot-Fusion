@@ -27,7 +27,7 @@ Read `SOUL.md` and `USER.md` before doing anything else.
 
 #### US Stocks (AI Financial Agent)
 - **Backtesting fictif ONLY:** No real trades until explicitly requested
-- **Financial Datasets API:** Use API key provided (`1d8c5377-8f04-4c6c-97a0-0f1f7e90fd52`)
+- **Financial Datasets API:** Use API key provided (stored in `secrets/finance.env`)
 - **Strategy generation:** Use predefined strategies first, then optimize with open AI later if needed
 - **Rate limits:** Monitor API usage to avoid throttling
 
@@ -70,12 +70,13 @@ Read `SOUL.md` and `USER.md` before doing anything else.
 - Bot is running (no errors in logs)
 - RPC endpoints are responding (Solana & Financial Datasets)
 - Recent alerts were received (last 24h)
-- API usage within limits
+- No new strategies added without testing
 
 **Weekly checks:**
 - Review performance metrics (ROI, win rate)
 - Check for new strategies to backtest
 - Review documentation and update AGENTS.md, MEMORY.md
+- Review API usage and limits
 
 ### Documentation
 

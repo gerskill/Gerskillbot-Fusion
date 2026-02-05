@@ -16,15 +16,15 @@
 - Node.js (v18+)
 - Solana RPC (public or private endpoint)
 - DexScreener API (no API key)
-- Financial Datasets API (US stocks, API key: `1d8c5377-8f04-4c6c-97a0-0f1f7e90fd52`)
-- OpenAI API (optionnel)
+- Alpha Vantage API (free tier)
+- OpenAI API (optional)
 - Telegram (alerts)
 
 **Objectifs actuels:**
-- 1. Backtesting fictif US stocks avec stratégie d'entrée/sortie
-- 2. Comparaison performance Solana vs US stocks
-- 3. Mise en temps réel future (quand demandé par l'utilisateur)
-- 4. Création d'indicateurs pour stratégie manuelle
+1. Backtesting fictif US stocks avec stratégie d'entrée/sortie
+2. Comparaison performance Solana vs US stocks
+3. Mise en temps réel future (quand demandé par l'utilisateur)
+4. Création d'indicateurs pour stratégie manuelle
 
 **Status:**
 - Backtesting fictif en cours (pas de trading réel)

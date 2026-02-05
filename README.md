@@ -66,8 +66,7 @@ npm install axios dotenv
 ```bash
 # Créer .env (pas de commit)
 cp .env.example .env
-# Ajouter ta API key:
-# FINANCIAL_DATASETS_API_KEY=1d8c5377-8f04-4c6c-97a0-0f1f7e90fd52
+# Ajouter ta API key: secrets/finance.env
 ```
 
 ### 3. Lancer un backtest

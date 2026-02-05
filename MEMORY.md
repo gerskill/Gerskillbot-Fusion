@@ -8,8 +8,8 @@
 
 - **Workspace:** Gerskillbot-Fusion (Solana + US stocks)
 - **Status:** Backtesting fictif en cours
-- **API Key:** Financial Datasets (`1d8c5377-8f04-4c6c-97a0-0f1f7e90fd52`)
-- **Stack:** Node.js, Solana RPC, DexScreener, Financial Datasets API
+- **API Keys:** Stored in `secrets/finance.env` (not tracked in git)
+- **Stack:** Node.js, Solana RPC, DexScreener, Alpha Vantage API
 
 ## Strategies Testées (US Stocks)
 

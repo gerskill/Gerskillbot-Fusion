@@ -1,6 +1,18 @@
 # Environment variables
 .env
 
+# Secrets and sensitive configuration
+secrets/*.env
+secrets/*.key
+secrets/*.pem
+secrets/.gitkeep
+
+# Secrets loader script (contains no sensitive data)
+# secrets-loader.sh
+
+# Secrets directory root
+secrets/
+
 # Node modules
 node_modules/
 
@@ -10,8 +22,13 @@ logs/
 
 # Data files
 data/*.json
+data/*.csv
 !data/.gitkeep
 
 # Temporary files
 tmp/
 temp/
+
+# Runtime files
+.env.local
+.env.*.local
