@@ -1,0 +1,17 @@
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Data files
+data/*.json
+!data/.gitkeep
+
+# Temporary files
+tmp/
+temp/

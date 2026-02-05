@@ -1,0 +1,17 @@
+{
+  "wallets": [
+    {
+      "address": "4BdKaxN8G6ka4GYtQQWk4G4dZRUTX2vQH9GcXdBREFUk",
+      "name": "Wallet 1",
+      "active": true,
+      "notes": "Smart trader - High win rate"
+    }
+  ],
+  "settings": {
+    "slippageBps": 50,
+    "entryDelayMs": 2000,
+    "exitDelayMs": 1500,
+    "pollInterval": 10000,
+    "myWallet": "YOUR_WALLET_ADDRESS"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "strategies": [
+    {
+      "name": "RSI_MeanReversion",
+      "description": "Acheter quand RSI < 30 (survendu), Vendre quand RSI > 70 (surneteté)",
+      "symbol": "AAPL",
+      "period": "1 year",
+      "rsi_period": 14,
+      "rsi_oversold": 30,
+      "rsi_overbought": 70,
+      "entry_threshold": 2,
+      "exit_threshold": 2,
+      "test_trades": true
+    },
+    {
+      "name": "Momentum_Breakout",
+      "description": "Acheter quand le prix casse un high sur 50 jours avec volume",
+      "symbol": "AAPL",
+      "period": "1 year",
+      "lookback_days": 50,
+      "volume_multiplier": 1.5,
+      "entry_threshold": 0.02,
+      "test_trades": true
+    },
+    {
+      "name": "Bollinger_Bands_Squeeze",
+      "description": "Acheter quand le volume augmente après une squeeze Bollinger",
+      "symbol": "AAPL",
+      "period": "1 year",
+      "bollinger_period": 20,
+      "bollinger_std": 2,
+      "volume_threshold": 1.3,
+      "test_trades": true
+    }
+  ],
+  "backtest_settings": {
+    "lookback_days": 365,
+    "initial_capital": 10000,
+    "commission": 0.001,
+    "test_trades": true,
+    "export_to_csv": true
+  }
+}
